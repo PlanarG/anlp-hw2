@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hw2rag"
+version = "0.2.0"
+description = "Retrieval-augmented QA over Pittsburgh and Carnegie Mellon documents (CMU 11-711 Homework 2)"
+requires-python = ">=3.12"
+dependencies = [
+  "faiss-cpu>=1.8",
+  "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+# Only needed for the non-default sentence-transformers embedding backend.
+sentence-transformers = ["sentence-transformers>=3.0"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+hw2-build-chunks = "hw2rag.indexing.build_chunks:main"
+hw2-build-index = "hw2rag.indexing.build_index:main"
+hw2-search = "hw2rag.retrieval.search:main"
+hw2-evaluate-retrieval = "hw2rag.retrieval.evaluate:main"
+hw2-generate-answers = "hw2rag.qa.generate:main"
+hw2-evaluate-answers = "hw2rag.qa.evaluate:main"
+hw2-validate-submission = "hw2rag.qa.validate_submission:main"

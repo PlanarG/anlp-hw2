@@ -1,0 +1,562 @@
+{
+  "build_completed_at": "2026-10-27T22:31:43.334401+00:00",
+  "document_count": 8534,
+  "error_count": 0,
+  "schema_version": 1,
+  "source_count": 41,
+  "sources": [
+    {
+      "category": "government/taxes",
+      "document_count": 126,
+      "document_types": {
+        "pdf_page": 123,
+        "web_page": 3
+      },
+      "input_file_count": 14,
+      "input_run_id": "20261012T052509Z",
+      "output_path": "city_pittsburgh_taxes.jsonl",
+      "output_sha256": "33c0b8a944ba533ce941c3f1288ddd31d216a135215c2cbf92144ec5f237ced7",
+      "output_size_bytes": 607306,
+      "source_id": "city_pittsburgh_taxes"
+    },
+    {
+      "category": "cmoa",
+      "document_count": 1512,
+      "document_types": {
+        "artwork": 1512
+      },
+      "input_file_count": 1,
+      "input_run_id": "20261012T051732Z",
+      "output_path": "cmoa_paintings.jsonl",
+      "output_sha256": "7902966c5d1fa987940881dd2d35953cc08574e9646cca9348d6c52e1cabfcaf",
+      "output_size_bytes": 4461520,
+      "source_id": "cmoa_paintings"
+    },
+    {
+      "category": "events/cmu",
+      "document_count": 856,
+      "document_types": {
+        "event": 856
+      },
+      "input_file_count": 9,
+      "input_run_id": "20261012T051732Z",
+      "output_path": "cmu_events_2026_2027.jsonl",
+      "output_sha256": "6e9bae86a7b829ddfbb98f47536d10ebcd06b35a6f895642b15427c05f5960bd",
+      "output_size_bytes": 1470994,
+      "source_id": "cmu_events_2026_2027"
+    },
+    {
+      "category": "cmu/history",
+      "document_count": 8,
+      "document_types": {
+        "web_page": 8
+      },
+      "input_file_count": 8,
+      "input_run_id": "20261012T052241Z",
+      "output_path": "cmu_history_and_traditions.jsonl",
+      "output_sha256": "5c7fec8f22fdc2cb02a72f2b44d893eebe90242ef2fb74f1a93311b6995b97be",
+      "output_size_bytes": 53173,
+      "source_id": "cmu_history_and_traditions"
+    },
+    {
+      "category": "cmu/research_history",
+      "document_count": 22,
+      "document_types": {
+        "web_page": 22
+      },
+      "input_file_count": 23,
+      "input_run_id": "20261026T200522Z",
+      "output_path": "cmu_research_history_enrichment.jsonl",
+      "output_sha256": "d728bfb7f3f617e339f8450f4629fc877ac8db67dfaf377380002d0093c9e837",
+      "output_size_bytes": 188259,
+      "source_id": "cmu_research_history_enrichment"
+    },
+    {
+      "category": "sports/college",
+      "document_count": 254,
+      "document_types": {
+        "event": 167,
+        "game": 77,
+        "web_page": 10
+      },
+      "input_file_count": 10,
+      "input_run_id": "20261012T051741Z",
+      "output_path": "college_sports_2026.jsonl",
+      "output_sha256": "ed6351abdc043feee48f6356210653835fa239ceed44b033e09976aeeb2b6224",
+      "output_size_bytes": 495369,
+      "source_id": "college_sports_2026"
+    },
+    {
+      "category": "sports/college_history",
+      "document_count": 11,
+      "document_types": {
+        "web_page": 11
+      },
+      "input_file_count": 11,
+      "input_run_id": "20261026T200522Z",
+      "output_path": "college_sports_history_enrichment.jsonl",
+      "output_sha256": "4aba71af4b4d3cad7b3366960742376d4b5974ffa538a162e69c7dede0aad1af",
+      "output_size_bytes": 166935,
+      "source_id": "college_sports_history_enrichment"
+    },
+    {
+      "category": "events/downtown_pittsburgh",
+      "document_count": 805,
+      "document_types": {
+        "event": 805
+      },
+      "input_file_count": 9,
+      "input_run_id": "20261012T052219Z",
+      "output_path": "downtown_pittsburgh_events.jsonl",
+      "output_sha256": "dc301ea05822b8c563e0876a38c89ebf263e32b16db418e64479c0ddcef3953a",
+      "output_size_bytes": 2644683,
+      "source_id": "downtown_pittsburgh_events"
+    },
+    {
+      "category": "coverage/civic_culture",
+      "document_count": 99,
+      "document_types": {
+        "event": 1,
+        "pdf_page": 84,
+        "web_page": 14
+      },
+      "input_file_count": 20,
+      "input_run_id": "20261026T205646Z",
+      "output_path": "failure_civic_resources.jsonl",
+      "output_sha256": "2427f0a8aa71b87a8c43e1d1a1480e8b814ba1e1c4d26dd9601eb8250a903495",
+      "output_size_bytes": 497570,
+      "source_id": "failure_civic_resources"
+    },
+    {
+      "category": "food/official_profiles",
+      "document_count": 27,
+      "document_types": {
+        "pdf_page": 5,
+        "web_page": 22
+      },
+      "input_file_count": 23,
+      "input_run_id": "20261026T205646Z",
+      "output_path": "failure_food_resources.jsonl",
+      "output_sha256": "8a6d10633a6132d04523cfde00f8016d7ab54bd7549a2ae31ad1ebb5e96563b2",
+      "output_size_bytes": 136528,
+      "source_id": "failure_food_resources"
+    },
+    {
+      "category": "history/verified_resources",
+      "document_count": 23,
+      "document_types": {
+        "pdf_page": 16,
+        "web_page": 7
+      },
+      "input_file_count": 8,
+      "input_run_id": "20261026T205536Z",
+      "output_path": "failure_history_resources.jsonl",
+      "output_sha256": "f4cad745302227202986b0f25dc538ccf39bdf0f4b6e0b5aa2d25ed7db9f2b6a",
+      "output_size_bytes": 114174,
+      "source_id": "failure_history_resources"
+    },
+    {
+      "category": "coverage/attachments",
+      "document_count": 0,
+      "document_types": {},
+      "input_file_count": 1,
+      "input_run_id": "20261026T210130Z",
+      "output_path": "failure_resource_attachments.jsonl",
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_size_bytes": 0,
+      "source_id": "failure_resource_attachments"
+    },
+    {
+      "category": "sports_events/verified_failure_resources",
+      "document_count": 254,
+      "document_types": {
+        "event": 23,
+        "game": 202,
+        "pdf_page": 4,
+        "web_page": 25
+      },
+      "input_file_count": 47,
+      "input_run_id": "20261026T210301Z",
+      "output_path": "failure_sports_event_resources.jsonl",
+      "output_sha256": "b01137a28eecf647e07ec1a7ee984cac6f7cc38d48aab8fd0f2911d0b1724ad9",
+      "output_size_bytes": 706698,
+      "source_id": "failure_sports_event_resources"
+    },
+    {
+      "category": "food_events",
+      "document_count": 6,
+      "document_types": {
+        "web_page": 6
+      },
+      "input_file_count": 6,
+      "input_run_id": "20261012T052405Z",
+      "output_path": "food_and_annual_events.jsonl",
+      "output_sha256": "9071ef959337ae3e42718ee73af6d4a91330d3a8a2e7e8e462014bb359bc6609",
+      "output_size_bytes": 37040,
+      "source_id": "food_and_annual_events"
+    },
+    {
+      "category": "sports/pirates",
+      "document_count": 53,
+      "document_types": {
+        "person": 53
+      },
+      "input_file_count": 1,
+      "input_run_id": "20261012T051741Z",
+      "output_path": "mlb_pirates_roster_2026.jsonl",
+      "output_sha256": "5cc57b5acee9ffc019a3937cdb49a6d5dc19ba810a3dfd6754031ed66f714caf",
+      "output_size_bytes": 73952,
+      "source_id": "mlb_pirates_roster_2026"
+    },
+    {
+      "category": "sports/pirates",
+      "document_count": 193,
+      "document_types": {
+        "game": 193
+      },
+      "input_file_count": 1,
+      "input_run_id": "20261012T051741Z",
+      "output_path": "mlb_pirates_schedule_2026.jsonl",
+      "output_sha256": "86d734a51d9811a45ac8527ea68800f670ee951096ecea4db7e10c0078b2d534",
+      "output_size_bytes": 331085,
+      "source_id": "mlb_pirates_schedule_2026"
+    },
+    {
+      "category": "culture",
+      "document_count": 16,
+      "document_types": {
+        "event": 6,
+        "web_page": 10
+      },
+      "input_file_count": 10,
+      "input_run_id": "20261012T052241Z",
+      "output_path": "music_and_culture.jsonl",
+      "output_sha256": "50573666dffbf436029fded1beb3419c7624d581dd3f094b75c613f95d3ec44c",
+      "output_size_bytes": 80257,
+      "source_id": "music_and_culture"
+    },
+    {
+      "category": "sports/penguins",
+      "document_count": 24,
+      "document_types": {
+        "person": 24
+      },
+      "input_file_count": 1,
+      "input_run_id": "20261012T051741Z",
+      "output_path": "nhl_penguins_roster_2026_27.jsonl",
+      "output_sha256": "d10269eec76b2918a66362ddb24c7bf1fc127b93d41a579921fb007523c20a44",
+      "output_size_bytes": 34001,
+      "source_id": "nhl_penguins_roster_2026_27"
+    },
+    {
+      "category": "sports/penguins",
+      "document_count": 88,
+      "document_types": {
+        "game": 88
+      },
+      "input_file_count": 1,
+      "input_run_id": "20261012T051741Z",
+      "output_path": "nhl_penguins_schedule_2026_27.jsonl",
+      "output_sha256": "4fbbc7435eaedcb926c80e42fd8d09319b66695040fc52cec76149b3ac067f40",
+      "output_size_bytes": 151344,
+      "source_id": "nhl_penguins_schedule_2026_27"
+    },
+    {
+      "category": "events/other",
+      "document_count": 4,
+      "document_types": {
+        "web_page": 4
+      },
+      "input_file_count": 4,
+      "input_run_id": "20261012T052405Z",
+      "output_path": "other_event_calendars.jsonl",
+      "output_sha256": "3877e434b2d30211650af26a42f6221ac5276218d495c3075f8a7c6c7ac63047",
+      "output_size_bytes": 24847,
+      "source_id": "other_event_calendars"
+    },
+    {
+      "category": "government/budgets",
+      "document_count": 353,
+      "document_types": {
+        "pdf_page": 353
+      },
+      "input_file_count": 1,
+      "input_run_id": "20261012T051741Z",
+      "output_path": "pittsburgh_2025_operating_budget.jsonl",
+      "output_sha256": "613989c663355cbca7d548c6fe92d15884362ea63704360f26ae4930d3209e98",
+      "output_size_bytes": 1480168,
+      "source_id": "pittsburgh_2025_operating_budget"
+    },
+    {
+      "category": "culture/comedy_music",
+      "document_count": 104,
+      "document_types": {
+        "event": 92,
+        "web_page": 12
+      },
+      "input_file_count": 12,
+      "input_run_id": "20261026T200522Z",
+      "output_path": "pittsburgh_comedy_music_enrichment.jsonl",
+      "output_sha256": "c3bb210f128c0d428311f8f5c164e31d1c4b515326f87331f402abf247cfaa03",
+      "output_size_bytes": 243815,
+      "source_id": "pittsburgh_comedy_music_enrichment"
+    },
+    {
+      "category": "culture/venues",
+      "document_count": 42,
+      "document_types": {
+        "event": 5,
+        "web_page": 37
+      },
+      "input_file_count": 37,
+      "input_run_id": "20261026T200522Z",
+      "output_path": "pittsburgh_culture_venues_enrichment.jsonl",
+      "output_sha256": "7d4a99e6066339ed4a64c0f7daf6a03288ee5054f7e41aff192811d213acf683",
+      "output_size_bytes": 292341,
+      "source_id": "pittsburgh_culture_venues_enrichment"
+    },
+    {
+      "category": "food/restaurants",
+      "document_count": 15,
+      "document_types": {
+        "web_page": 15
+      },
+      "input_file_count": 15,
+      "input_run_id": "20261026T200205Z",
+      "output_path": "pittsburgh_dining_guides_enrichment.jsonl",
+      "output_sha256": "31846e8fe9af309c0ca135d02dddc6acf9ebbc8b36facfe971ab2cf921adc44e",
+      "output_size_bytes": 111515,
+      "source_id": "pittsburgh_dining_guides_enrichment"
+    },
+    {
+      "category": "events/official_details",
+      "document_count": 9,
+      "document_types": {
+        "event": 5,
+        "web_page": 4
+      },
+      "input_file_count": 7,
+      "input_run_id": "20261026T200755Z",
+      "output_path": "pittsburgh_event_details_enrichment.jsonl",
+      "output_sha256": "4078927c4e8fe009f99984ba21afe5e13d198ad0d3b8cfc5020e5a6a75e20ab9",
+      "output_size_bytes": 39997,
+      "source_id": "pittsburgh_event_details_enrichment"
+    },
+    {
+      "category": "events/pittsburgh_events",
+      "document_count": 590,
+      "document_types": {
+        "event": 590
+      },
+      "input_file_count": 199,
+      "input_run_id": "20261012T051806Z",
+      "output_path": "pittsburgh_events_fall_2026.jsonl",
+      "output_sha256": "8694010fc6458570a27848583431b290b023490ba1e9e3e1ddff10d8de249bc4",
+      "output_size_bytes": 996785,
+      "source_id": "pittsburgh_events_fall_2026"
+    },
+    {
+      "category": "history",
+      "document_count": 5,
+      "document_types": {
+        "web_page": 5
+      },
+      "input_file_count": 5,
+      "input_run_id": "20261012T052405Z",
+      "output_path": "pittsburgh_general_history.jsonl",
+      "output_sha256": "2389381fb5d288b2f33176905bfd27252677c1b6da75224b948edc3529959c1d",
+      "output_size_bytes": 202879,
+      "source_id": "pittsburgh_general_history"
+    },
+    {
+      "category": "food/restaurants",
+      "document_count": 8,
+      "document_types": {
+        "web_page": 8
+      },
+      "input_file_count": 8,
+      "input_run_id": "20261026T200522Z",
+      "output_path": "pittsburgh_restaurants_official_enrichment.jsonl",
+      "output_sha256": "c98a7feb265c83768e32577e76daca994e3bf7f193055f8fda91814ee4e432a1",
+      "output_size_bytes": 32019,
+      "source_id": "pittsburgh_restaurants_official_enrichment"
+    },
+    {
+      "category": "government/civic",
+      "document_count": 132,
+      "document_types": {
+        "event": 16,
+        "web_page": 116
+      },
+      "input_file_count": 122,
+      "input_run_id": "20261027T220923Z",
+      "output_path": "site_civic.jsonl",
+      "output_sha256": "f2757e83f46994f82f56662577a050782a8e576f0b2b69592ee0f539c09dfbed",
+      "output_size_bytes": 839576,
+      "source_id": "site_civic"
+    },
+    {
+      "category": "university/cmu",
+      "document_count": 179,
+      "document_types": {
+        "web_page": 179
+      },
+      "input_file_count": 189,
+      "input_run_id": "20261027T220923Z",
+      "output_path": "site_cmu.jsonl",
+      "output_sha256": "80f897e1ee051d15768026b336e18c28c95ccd364b068bd1a3b0805b388c7877",
+      "output_size_bytes": 1745072,
+      "source_id": "site_cmu"
+    },
+    {
+      "category": "events/festivals",
+      "document_count": 65,
+      "document_types": {
+        "event": 1,
+        "web_page": 64
+      },
+      "input_file_count": 66,
+      "input_run_id": "20261027T220923Z",
+      "output_path": "site_festivals.jsonl",
+      "output_sha256": "d740fcfddab9200dca354c0a5f4c808c1427310fee314c50e32239853185adc2",
+      "output_size_bytes": 304930,
+      "source_id": "site_festivals"
+    },
+    {
+      "category": "culture/museums",
+      "document_count": 277,
+      "document_types": {
+        "event": 73,
+        "web_page": 204
+      },
+      "input_file_count": 224,
+      "input_run_id": "20261027T220923Z",
+      "output_path": "site_museums.jsonl",
+      "output_sha256": "402122075bca5029456e129d9c7cbc29cfe0d27e02f676aa36889cf6f3f83f0b",
+      "output_size_bytes": 1451560,
+      "source_id": "site_museums"
+    },
+    {
+      "category": "culture/performing_arts",
+      "document_count": 193,
+      "document_types": {
+        "event": 60,
+        "web_page": 133
+      },
+      "input_file_count": 137,
+      "input_run_id": "20261027T220923Z",
+      "output_path": "site_performing_arts.jsonl",
+      "output_sha256": "b59e2da1804dd5baa63367fe642603e0bf62c482c37b14dff345c2152665963f",
+      "output_size_bytes": 828868,
+      "source_id": "site_performing_arts"
+    },
+    {
+      "category": "sports",
+      "document_count": 108,
+      "document_types": {
+        "event": 20,
+        "web_page": 88
+      },
+      "input_file_count": 88,
+      "input_run_id": "20261027T220923Z",
+      "output_path": "site_sports.jsonl",
+      "output_sha256": "706f30c41e998e489fa26ee16dd6a30d3d9e04a444fdb0711b1208939d41f609",
+      "output_size_bytes": 695573,
+      "source_id": "site_sports"
+    },
+    {
+      "category": "university/other",
+      "document_count": 340,
+      "document_types": {
+        "event": 175,
+        "web_page": 165
+      },
+      "input_file_count": 167,
+      "input_run_id": "20261027T220923Z",
+      "output_path": "site_universities.jsonl",
+      "output_sha256": "030f10c115bea3c224875f7f2a4b9195907a583df792be8fd277e197429577c8",
+      "output_size_bytes": 1661274,
+      "source_id": "site_universities"
+    },
+    {
+      "category": "culture/venues",
+      "document_count": 213,
+      "document_types": {
+        "event": 116,
+        "web_page": 97
+      },
+      "input_file_count": 121,
+      "input_run_id": "20261027T220923Z",
+      "output_path": "site_venues.jsonl",
+      "output_sha256": "e604091e12cab82645e0c0788b525146982949129e5a455df8db274330286636",
+      "output_size_bytes": 752750,
+      "source_id": "site_venues"
+    },
+    {
+      "category": "sports/steelers",
+      "document_count": 24,
+      "document_types": {
+        "event": 20,
+        "web_page": 4
+      },
+      "input_file_count": 4,
+      "input_run_id": "20261012T051741Z",
+      "output_path": "steelers_team.jsonl",
+      "output_sha256": "00aae20cc54c6874edc8a3c10e9405ec874f38f0245fb4bdca8ebe84c6e3fa2e",
+      "output_size_bytes": 61840,
+      "source_id": "steelers_team"
+    },
+    {
+      "category": "education",
+      "document_count": 230,
+      "document_types": {
+        "web_page": 230
+      },
+      "input_file_count": 231,
+      "input_run_id": "20261027T215741Z",
+      "output_path": "wiki_pgh_education.jsonl",
+      "output_sha256": "0a8726fae8939548629be46d3c5909947c85ed7ca5f1243466ce3820ff4b0a40",
+      "output_size_bytes": 2151977,
+      "source_id": "wiki_pgh_education"
+    },
+    {
+      "category": "history",
+      "document_count": 545,
+      "document_types": {
+        "web_page": 545
+      },
+      "input_file_count": 549,
+      "input_run_id": "20261027T215741Z",
+      "output_path": "wiki_pgh_history_culture.jsonl",
+      "output_sha256": "5a6e9fa74368f1189b49166ae7d298774be431409aa89e9ffe62f117edadd8ef",
+      "output_size_bytes": 5074044,
+      "source_id": "wiki_pgh_history_culture"
+    },
+    {
+      "category": "landmarks",
+      "document_count": 640,
+      "document_types": {
+        "web_page": 640
+      },
+      "input_file_count": 651,
+      "input_run_id": "20261027T215741Z",
+      "output_path": "wiki_pgh_landmarks.jsonl",
+      "output_sha256": "bea9559894ca395bf7f61c38ca68aaf97aa15f1d791baad6f77605810e2ecbbe",
+      "output_size_bytes": 4385551,
+      "source_id": "wiki_pgh_landmarks"
+    },
+    {
+      "category": "sports",
+      "document_count": 81,
+      "document_types": {
+        "web_page": 81
+      },
+      "input_file_count": 85,
+      "input_run_id": "20261027T215741Z",
+      "output_path": "wiki_pgh_sports.jsonl",
+      "output_sha256": "3f56e5d6b76c6dbd8aba3c4025ec07adc73505018f784685e142eeb27d1e9751",
+      "output_size_bytes": 1189648,
+      "source_id": "wiki_pgh_sports"
+    }
+  ]
+}

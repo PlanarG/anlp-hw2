@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "attributes": {
+      "type": "object"
+    },
+    "canonical_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "category": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "chunk_count": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "chunk_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "chunk_index": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "chunking": {
+      "type": "object"
+    },
+    "document_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "document_type": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "document_version_id": {
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "end_char": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "language": {
+      "minLength": 2,
+      "type": "string"
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "retrieval_text": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "source_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "start_char": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "temporal": {
+      "type": "object"
+    },
+    "text": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "text_format": {
+      "enum": [
+        "markdown",
+        "plain"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "version_id": {
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "word_count": {
+      "minimum": 1,
+      "type": "integer"
+    }
+  },
+  "required": [
+    "schema_version",
+    "chunk_id",
+    "version_id",
+    "document_id",
+    "document_version_id",
+    "source_id",
+    "category",
+    "document_type",
+    "title",
+    "text",
+    "retrieval_text",
+    "chunk_index",
+    "chunk_count",
+    "start_char",
+    "end_char",
+    "word_count",
+    "temporal",
+    "attributes",
+    "provenance",
+    "chunking"
+  ],
+  "title": "HW2 retrieval chunk",
+  "type": "object"
+}

@@ -1,0 +1,14 @@
+# Generated artifacts: indexes (rebuild with scripts/run_pipeline.py --build-only; dense.faiss alone is
+# ~420 MB), Ollama worker logs, and the per-document text cache written by the agent corpus tools
+artifacts/
+# Query-embedding caches written during runs
+outputs/**/query_embeddings/
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.DS_Store

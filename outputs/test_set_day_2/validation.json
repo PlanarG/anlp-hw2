@@ -1,0 +1,18 @@
+{
+  "predictions": "outputs/test_set_day_2/predictions.json",
+  "questions": "hw2-public/test_set_day_2.json",
+  "answers": 250,
+  "unknown_count": 20,
+  "matches_config": {
+    "model": true,
+    "reader_model_digest": true,
+    "prompt_sha256": true
+  },
+  "parameter_differences": {
+    "answer_normalization": [
+      "fields",
+      "calibrated"
+    ]
+  },
+  "index_manifest_sha256": "3d5107a948a25f162e3667d808264e5a74cce13767d96073edde25dfc35b8fd9"
+}

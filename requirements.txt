@@ -1,0 +1,4 @@
+# Pinned runtime dependencies (tested with CPython 3.12 on Linux x86_64).
+# Both models are served by Ollama, so PyTorch / Transformers are not needed.
+numpy==2.5.4
+faiss-cpu==1.15.1

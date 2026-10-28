@@ -1,0 +1,14 @@
+{
+  "predictions": "outputs/leaderboard/predictions.json",
+  "questions": "hw2-public/leaderboard_queries.json",
+  "answers": 150,
+  "unknown_count": 11,
+  "matches_config": {
+    "model": true,
+    "reader_model_digest": true,
+    "prompt_sha256": true,
+    "questions_sha256": true
+  },
+  "parameter_differences": {},
+  "index_manifest_sha256": "3d5107a948a25f162e3667d808264e5a74cce13767d96073edde25dfc35b8fd9"
+}
